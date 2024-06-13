@@ -10,7 +10,7 @@ cd ds918-7.0.1
 
 # download redpill
 git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
-git clone -b develop --depth=1 https://github.com/jumkey/redpill-load.git
+git clone -b develop --depth=1 https://github.com/pinganchengkq2/redpill-load.git
 
 # download syno toolkit
 curl --location "https://global.synologydownload.com/download/ToolChain/toolkit/7.0/apollolake/ds.apollolake-7.0.dev.txz" --output ds.apollolake-7.0.dev.txz

@@ -17,10 +17,10 @@ jobs:
         run: |
             bash build-ds918-7.0.1.sh
 
-      - name: Archive DS3615xs 7.0.1 loader image
+      - name: Archive DS918+ 7.0.1 loader image
         uses: actions/upload-artifact@v2
         with:
-          name: redpill-DS3615xs_7.0.1-loader
-          path: output/redpill-DS3615xs_7.0*.img
+          name: redpill-DS918+_7.0.1-loader
+          path: output/redpill-DS918+_7.0*.img
           
           

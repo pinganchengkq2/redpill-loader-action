@@ -13,7 +13,7 @@ git clone --depth=1 https://github.com/RedPill-TTG/redpill-lkm.git
 git clone -b develop --depth=1 https://github.com/jumkey/redpill-load.git
 
 # download syno toolkit
-curl --location "https://sourceforge.net/projects/dsgpl/files/toolkit/DSM7.0/ds.apollolake-7.0.dev.txz/download" --output ds.apollolake-7.0.dev.txz
+curl --location "https://global.synologydownload.com/download/ToolChain/toolkit/7.0/apollolake/ds.apollolake-7.0.dev.txz" --output ds.apollolake-7.0.dev.txz
 
 mkdir apollolake
 tar -C./apollolake/ -xf ds.apollolake-7.0.dev.txz usr/local/x86_64-pc-linux-gnu/x86_64-pc-linux-gnu/sys-root/usr/lib/modules/DSM-7.0/build
